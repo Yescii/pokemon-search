@@ -7,7 +7,7 @@
 ### Wireframe
 ![alt text](https://github.com/Yescii/pokemon-search/blob/main/pokemon-framework.png?raw=true)
 
-PSC is a website where users would like to look up information of a Pokemon character. Also an applealing site where the user will have a great user experince during the use of the website. PSC is also beginner friendly, for those new to Pokemon like adding a random search button to look up characters randomly and a description of Pokemon for all types of users.
+PSC is a website where users would like to look up information of a Pokemon character. Also an appealing site where the user will have a great user experience during the use of the website. PSC is also beginner friendly, for those new to Pokemon like adding a random search button to look up characters randomly and a description of Pokemon for all types of users.
 
 
 ### Built With
