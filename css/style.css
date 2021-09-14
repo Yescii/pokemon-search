@@ -1,0 +1,18 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+ /* background-image: url('./img/pokemon.webp'); */
+}
+body { 
+    width: 100%;
+    height: 100vh;
+    background: url(/img/pokemon.webp) center no-repeat ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right .2px bottom .5px;
+  }
+ 
+  
