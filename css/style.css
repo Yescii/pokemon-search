@@ -5,14 +5,57 @@
  /* background-image: url('./img/pokemon.webp'); */
 }
 body { 
+    
+  }
+
+  #homepage{
+
     width: 100%;
     height: 100vh;
     background: url(/img/pokemon.webp) center no-repeat ; 
+    /* transform: scaleX(-1); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: right .2px bottom .5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #homepage-con{
+    border-radius: 20px;
+    width: 60%;
+    height: 70vh;
+    background-color: #faa307;
+    display: flex;
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.7), 
+    rgba(250 ,255, 255, 0.2));
+   
+  }
+
+  .search{
+   border-radius: 20px;
+    width: 270px;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .desc{
+    width: 530px;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: blueviolet;
+  }
+
+  button{
+    width: 170px;
   }
  
   
