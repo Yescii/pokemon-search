@@ -25,6 +25,10 @@ PSC is a website where users would like to look up information of a Pokemon char
 
 
 
+<!-- Website -->
+## Site
+* [pSC](https://gracious-hermann-b4ec99.netlify.app/)
+
 
 
 
