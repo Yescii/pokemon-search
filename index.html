@@ -9,6 +9,8 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script defer src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -16,13 +18,62 @@
     <section id="homepage">
 
         <div id="homepage-con" >
+
+
             <div class="search">
-                <button class="search-btn">New to Pokemon</button>
+                <button class="search-btn newcomers-btn">New to Pokemon ?</button>
                 <input class="search-input" type="text" placeholder="Search here..">
-                <button class="search-btn">Random Pick</button>
+                <button class="search-btn rndm-btn">Random Pick</button>
             </div>
-           
+
+
+           <div class="card-desc-con">
+
+            
+             </div>
+
+
+<!-- Newcomers page -->
+             <div class="newcomers">
+                 <img src="./img/prof-oak-img_adobespark.png" alt="professor oak">
+
+
+                 <div>
+                    <p> Hello Newcomers, welcome to the world of Pokemon! Pokemon are creatures of all shapes and sizes that fight along side with you or against you. Try out the random pick button to generate a random Pokemon. Who knows it might be your first and favorite Pokemon. Also, I have some resources to start your adventure. Go Catch Em All! </p>
+                  
+
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=--zWpI5gRUU" target="_blank">TCG</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=zBmy7vTdKNY" target="_blank">Pokemon For Begginers</a></li>
+                        <li><a href="https://pokemon-planet.com/" target="_blank">Pokemon Planet</a></li>
+                    </ul>
+
+                 </div>
+
+                 <button class="gb-btn" >Go Back</button>
+                 
+             </div>
+
             
         </div>
     </section>
+
+    <!-- Modal Section -->
+
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="mc-hr">
+                <h1>Hello Trainer!</h1>     <img class="pokeball-emoji" src="./img/pokeball-emoji.png" alt="pokeball">
+            </div>
+           
+            <p> PSC Application can you help find information for Pokemon characters. PSC also welcomes newcomers to the Pokemon world!</p>
+
+            <button class="mc-btn">X</button>
+        </div>
+    </div>
 </html>
+
+
+ 
+
+   
